@@ -185,10 +185,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
+    <Compile Include="Pipeline\PerformRendering.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LICENSE.md" />
+    <Content Include="App_Config\Include\Foundation\Extension\DynamicPlaceholderRendering\PerformRendering.config" />
     <None Include="packages.config" />
+    <Content Include="README.md" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
